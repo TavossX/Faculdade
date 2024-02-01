@@ -1,0 +1,76 @@
+*{margin: 0; padding: 0}
+
+main{
+    font: 12px "Verdana";
+}
+#lista-contatos{
+    margin: 0 auto;
+    width: 50%;
+    padding: 5px;
+}
+
+#lista-contatos table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+#lista-contatos table tr{
+    border:1px solid #000;
+    padding: 10px;
+}
+
+#lista-contatos table td{
+    padding: 5px;
+}
+
+#lista-contatos table td img{
+    width: 70px;
+    border: 1px solid #000;
+}
+
+#lista-contatos table tbody tr:hover{
+        background: lightblue;
+}
+
+.botao-remover-contato{
+    cursor: pointer;
+    text-align: center;
+    border: none !important;
+    width: 16px !important;
+}
+
+#formulario-cadastro-contato
+{
+    display: none;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#formulario-cadastro-contato fieldset
+{
+    background: #ccc;
+    border: 1px solid #000;
+    padding: 1%;
+}
+
+#formulario-cadastro-contato legend{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #000;
+    background: #000;
+    font-weight: bold;
+    color: #fff;
+}
+
+#formulario-cadastro-contato ul li{
+    display: inline-block;
+    padding: 5px 7% 5px 5%;
+}
+
+#formulario-cadastro-contato button{
+    float: right;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+}

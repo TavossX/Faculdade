@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+main {
+    height: 100vh;
+    background-color: #3e3183;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    height: 7%;
+    background-color:#3e3183;
+
+}
+
+section {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+}
+
+.headers{
+    justify-content: right;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 7%;
+    width: 100vw;
+    gap: 25px;
+    background-color: #3e3183;
+    border-left: 100px;
+    padding-right: 3.6%;
+}
+
+a{
+    color: #b9e5ff;
+    transition: filter, transform 0.2s;
+}
+
+a:hover{
+    color: yellow;
+    transform:scale(1.1);
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 60px;
+    padding-top: 70px;
+}
+
+.icone_cad{
+    display: flex;
+    flex-direction: column;
+    background-color: #160030;
+    width: 7%;
+}
+
+.icone_cadastro{
+    padding-left: 2%;
+    font-size: 30px;
+}
+
+.border{
+    display: flex;
+    width: 300px;
+    height: 50vh;
+    background-color: #070027;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.548);
+    transition: filter, transform 0.2s;
+}
+
+.border:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.carrinho{
+    font-size: 120px;
+}
+
+h1{
+    color: #b9e5ff;
+    font-size: 55px;
+    font-family: 'Hedvig Letters Serif', serif;
+    cursor: pointer;
+}
+
+.container_carrinho{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 4rem;
+}
